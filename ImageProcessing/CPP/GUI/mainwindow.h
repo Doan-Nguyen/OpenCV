@@ -5,6 +5,8 @@
 #include <QMenuBar>
 #include <QToolBar>
 #include <QAction>
+#include <QGraphicsScene>
+#include <QGraphicsView>
 #include <QStatusBar>
 #include <QLabel>
 
@@ -12,7 +14,7 @@
 class MainWindow: public QMainWindow{
     Q_OBJECT
 public:
-    explict MainWindow(QWidget *parent=nullptr);
+    explicit MainWindow(QWidget *parent=nullptr);
     ~MainWindow();
 
 private:
@@ -31,4 +33,6 @@ private:
     QStatusBar *mainStatusBar;
     QLabel *mainStatusLabel;
 };
+
+#endif // MAINWINDOW_H
 

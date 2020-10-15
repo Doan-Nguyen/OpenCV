@@ -5,7 +5,7 @@ int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
     QMainWindow window;
-    window.setWindowTitle("ImageViewer");
+    window.setWindowTitle("Image Processing");
     window.show();
     return app.exec();
 }

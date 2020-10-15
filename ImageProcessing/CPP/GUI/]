@@ -21,7 +21,4 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 # Input
 
-HEADERS += mainwindow.h
 SOURCES += main.cpp mainwindow.cpp
-
-LIBS += -lopencv_highgui -
